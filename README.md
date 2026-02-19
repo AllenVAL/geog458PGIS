@@ -34,7 +34,6 @@ This map supports community storytelling and helps visualize LGBTQ+ spaces and e
 - MapLibre GL JS
 - JavaScript
 - Node.js
-- Express
 - PostgreSQL (Heroku)
 - GitHub Pages
 - Heroku
@@ -46,7 +45,7 @@ This map supports community storytelling and helps visualize LGBTQ+ spaces and e
 
 ## Author
 
-Allen Yuan  
-GEOG 458 
-February 2026 
+- Allen Yuan  
+- GEOG 458 
+- February 2026 
 
