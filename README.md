@@ -8,7 +8,7 @@ AI is used in this project for:
 
 I did not use AI to write or complete any components where AI use is prohibited. If AI was used for debugging or development, I am able to explain the relevant code and decisions
 
-**Web Map URL:**  
+## Web Map URL
 https://allenval.github.io/geog458PGIS/
 
 ## Overview
