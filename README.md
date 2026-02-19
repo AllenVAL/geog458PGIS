@@ -42,3 +42,11 @@ This map supports community storytelling and helps visualize LGBTQ+ spaces and e
 ## Screenshot
 
 ![UW LGBTQ+ Community Map](img/map.png)
+
+
+## Author
+
+Allen Yuan  
+GEOG 458 
+February 2026 
+
