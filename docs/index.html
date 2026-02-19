@@ -28,7 +28,8 @@ z-index:1
 
 <div id="map"></div>
 
-<div id="info">
+<div id="info" style="background: linear-gradient(135deg,#ff0018,#ffa52c,#ffff41,#008018,#0000f9,#86007d); color:white;">
+
 <h3>UW LGBTQ+ Community Map</h3>
 <p>Click anywhere to share LGBTQ+ friendly places, memories, or experiences at UW.</p>
 </div>
@@ -44,7 +45,7 @@ features:[]
 
 let map=new maplibregl.Map({
 container:'map',
-style:'https://api.maptiler.com/maps/streets-v2/style.json?key=Cusoe5zmfmn26glFoeoe',
+style:'https://api.maptiler.com/maps/dataviz-dark/style.json?key=Cusoe5zmfmn26glFoeoe',
 center:[-122.305,47.655],
 zoom:13
 });
@@ -92,14 +93,18 @@ paint:{
 'circle-color':[
 'interpolate',
 ['linear'],
-['get','id'],
-0,'#ff0000',
-1,'#ff8000',
-2,'#ffff00',
-3,'#00ff00',
-4,'#0000ff',
-5,'#8000ff'
-]
+['random'],
+0,'#ff0018',
+0.2,'#ffa52c',
+0.4,'#ffff41',
+0.6,'#008018',
+0.8,'#0000f9',
+1,'#86007d'
+],
+'circle-radius':8,
+'circle-stroke-width':2,
+'circle-stroke-color':'#ffffff'
+
 }
 });
 
