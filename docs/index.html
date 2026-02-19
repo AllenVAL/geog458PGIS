@@ -51,7 +51,7 @@ zoom:13
 
 window.addEventListener("load",async function(){
 
-let response=await fetch('https://geog458pgis.herokuapp.com/api/get-record');
+let response=await fetch('geog458pgis-2928568466c7.herokuapp.com/api/get-record');
 
 let data=await response.json();
 
@@ -160,7 +160,7 @@ form.append('identity',identity);
 form.append('lng',lngLat.lng);
 form.append('lat',lngLat.lat);
 
-await fetch('https://geog458pgis.herokuapp.com/api/add-record',{
+await fetch('https://geog458pgis-2928568466c7.herokuapp.com/api/add-record',{
 method:'POST',
 body:form
 });
